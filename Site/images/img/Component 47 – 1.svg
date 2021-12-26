@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="61" viewBox="0 0 61 61">
+  <defs>
+    <filter id="Ellipse_9" x="0" y="0" width="61" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_47_1" data-name="Component 47 – 1" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Ellipse_9)">
+      <circle id="Ellipse_9-2" data-name="Ellipse 9" cx="21.5" cy="21.5" r="21.5" transform="translate(9 6)" fill="#2374bb" opacity="0.13"/>
+    </g>
+    <g id="fb_icon" data-name="fb icon" transform="translate(17.077 13.519)">
+      <path id="facebook" d="M15.538,2H13.21A3.881,3.881,0,0,0,9.329,5.881V8.21H7v3.1H9.329v6.21h3.1v-6.21h2.329l.776-3.1h-3.1V5.881A.776.776,0,0,1,13.21,5.1h2.329Z" transform="translate(-7 -2)" fill="#2374bb"/>
+    </g>
+  </g>
+</svg>

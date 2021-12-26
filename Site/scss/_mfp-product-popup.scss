@@ -1,0 +1,229 @@
+.mfp-container {
+    padding: 30px;
+}
+.mfp-bg.mfp-ready {
+    opacity: .6;
+}
+#open-popup {padding:20px}
+.product-lightbox {
+  background-color: #fff;
+  max-width: 875px;
+  margin: 0 auto;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-shadow: 3px 3px 20px 0 rgba(0,0,0,.15);
+  box-shadow: 3px 3px 20px 0 rgba(0,0,0,.15);
+  position: relative;
+  .product-quick-view-container{
+    .row > div {
+      padding: 0;  
+    }
+    .product-gallery-slider{
+      .flickity-slider > div:not(.col), .flickity-slider > a, .flickity-slider > p, .flickity-slider > a > img, .flickity-slider > img, .flickity-slider > figure {
+        width: 100% !important;
+        padding: 0;
+        margin: 0;
+        -webkit-transition: opacity .6s,-webkit-transform .6s,-webkit-box-shadow .6s;
+        transition: opacity .6s,-webkit-transform .6s,-webkit-box-shadow .6s;
+        -o-transition: transform .6s,opacity .6s,box-shadow .6s;
+        transition: transform .6s,opacity .6s,box-shadow .6s;
+        transition: transform .6s,opacity .6s,box-shadow .6s,-webkit-transform .6s,-webkit-box-shadow .6s;
+      }
+      .slide{
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .badge-container{
+      .badge {
+        margin-left: 15px;
+        height: 58.2px;
+        width: 58.2px;
+        .badge-inner{
+          span{
+            font-size: 20.8px;
+          }
+        }
+      }
+    }
+    .product-info{
+      .product-lightbox-inner{
+        padding: 30px;
+        a{
+          .title{
+            font-weight: bold;
+            position: relative;
+            margin-bottom: 30px;
+            &::after{
+              content: '';
+              height: 3px;
+              background-color: rgba(0,0,0,.1);
+              width: 30px;
+              position: absolute;
+              bottom: -15px;
+              left: 0;
+            }
+          }
+        }
+        .price-wrapper{
+          margin-top: 5px;
+          margin-bottom: 5px;
+          .price{
+            font-size: 1.8em;
+            margin: .5em 0;
+            font-weight: bolder;
+            del{
+              color: #848484;
+              span{
+                white-space: nowrap;
+                opacity: .6;
+                font-weight: 400;
+                margin-right: .3em;
+              }
+            }
+            ins {
+              text-decoration: none;
+              span{
+                color: #0c0c0c;
+                white-space: nowrap;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+        .stock{
+          margin-bottom: 1em;
+          line-height: 1.3;
+          font-size: .8em;
+          font-weight: 700;
+          &.in-stock{
+            text-align: center;
+            padding: 2px 5px 2px 5px;
+            color: #ffffff;
+            width: max-content;
+            background-color: #00b773;
+            border-radius: 3px;
+            border: 1px solid #0d9a59;
+          }
+        }
+        .cart{
+          .wc-points-rewards-product-message{
+            font-size: 14.4px;
+            line-height: 23.0333px;
+            text-align: left;
+            color: rgb(30, 30, 30);
+          }
+          .quantity{
+            opacity: 1;
+            display: inline-block;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            margin-right: 1em;
+            white-space: nowrap;
+            vertical-align: top;
+            .minus,
+            .plus{
+              background-color: transparent;
+              display: inline-block;
+              font-size: .97em;
+              letter-spacing: .03em;
+              cursor: pointer;
+              text-align: center;
+              margin: 0;
+              padding-left: .5em;
+              padding-right: .5em;
+              border-radius: 3px;
+              outline: none;
+              opacity: 1;
+              -webkit-box-shadow: none;
+              box-shadow: none;
+              overflow: hidden;
+              position: relative;
+              text-shadow: 1px 1px 1px #fff;
+              border: 1px solid #ddd;
+              text-transform: none;
+              font-weight: normal;
+              background-color: #ffffff0d;
+              color: #000;
+            }
+            .minus{
+              border-right: 0;
+              border-top-right-radius: 0;
+              border-bottom-right-radius: 0;
+            }
+            .plus{
+              border-left: 0;
+              border-top-left-radius: 0;
+              border-bottom-left-radius: 0;
+            }
+            .input-text{
+              border: 1px solid #ddd;
+              padding: 0 .75em;
+              color: #333;
+              padding-left: 0;
+              padding-right: 0;
+              display: inline-block;
+              vertical-align: top;
+              margin: 0;
+              background-color: transparent;
+              -webkit-box-shadow: none;
+              box-shadow: none;
+              width: 2.5em;
+              text-align: center;
+              border-radius: 0 !important;
+              -webkit-appearance: textfield;
+              -moz-appearance: textfield;
+              appearance: textfield;
+              font-size: 1em;
+              height: 50px;
+              max-width: 2em;
+              border-left: 0;
+              border-right: 0;
+            }
+          }
+          .single_add_to_cart_button{
+            border: 1px solid transparent;
+            border-color: rgba(0,0,0,.05);
+            margin-right: 0;
+            border-radius: 3px;
+            animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+            transform: translate3d(0, 0, 0);
+            backface-visibility: hidden;
+            perspective: 1000px;
+            animation-duration: 6s;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            background-color: #0075C9;
+            color: #fff;
+            width: 65%;
+            height: 50px;
+            font-size: 20px;
+            &::before{
+              font-family: "Font Awesome 5 Pro";
+               content: "\f07a";
+               display: inline-block;
+               padding-right: 10px;
+               vertical-align: middle;
+               font-weight: 900;
+              
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.flickity-page-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 20%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+}

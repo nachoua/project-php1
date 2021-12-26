@@ -1,0 +1,12 @@
+<svg id="_1color" data-name="1color" xmlns="http://www.w3.org/2000/svg" width="74" height="40" viewBox="0 0 74 40">
+  <rect id="Rectangle_3846" data-name="Rectangle 3846" width="74" height="40" rx="5" fill="#efefef"/>
+  <g id="credit-card" transform="translate(21 -3.829)">
+    <path id="Path_18196" data-name="Path 18196" d="M62,22h3.718v.826H62Z" transform="translate(-35.214 -5.282)" fill="#7a7a7a"/>
+    <path id="Path_18197" data-name="Path 18197" d="M3,22H25.72v.826H3Z" transform="translate(-0.587 -5.282)" fill="#7a7a7a"/>
+    <path id="Path_18198" data-name="Path 18198" d="M3,31H31.091v.826H3Z" transform="translate(-0.587 -10.564)" fill="#7a7a7a"/>
+    <rect id="Rectangle_4054" data-name="Rectangle 4054" width="28.917" height="4.449" transform="translate(2 16.336)" fill="#2374bb"/>
+    <path id="Path_18195" data-name="Path 18195" d="M28.851,32.829H4.065A2.068,2.068,0,0,1,2,30.763v-5.37h.826v5.37A1.239,1.239,0,0,0,4.065,32H28.851a1.239,1.239,0,0,0,1.239-1.239v-15.7a1.239,1.239,0,0,0-1.239-1.239H4.065a1.239,1.239,0,0,0-1.239,1.239v8.675H2V15.065A2.068,2.068,0,0,1,4.065,13H28.851a2.068,2.068,0,0,1,2.065,2.065v15.7A2.068,2.068,0,0,1,28.851,32.829Z" fill="#7a7a7a"/>
+    <path id="Path_18199" data-name="Path 18199" d="M8,54h8.675v.826H8Z" transform="translate(-3.521 -24.063)" fill="#7a7a7a"/>
+    <path id="Path_18200" data-name="Path 18200" d="M8,49h4.544v.826H8Z" transform="translate(-3.521 -21.128)" fill="#7a7a7a"/>
+  </g>
+</svg>

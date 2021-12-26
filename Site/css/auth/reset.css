@@ -1,0 +1,129 @@
+.reset-email-title {
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.reset-email-value-title {
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 25px;
+    margin-top: -12px;
+}
+
+.reset-email-input {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    visibility: visible;
+    font-size: 13px;
+    line-height: normal;
+    color: #040c13;
+    font-family: Human BBY Digital, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.pt-main-container {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    visibility: visible;
+    font-size: 13px;
+    line-height: normal;
+    box-sizing: border-box;
+    position: relative;
+    width: 395px;
+    min-height: 1px;
+    border: 1px solid #e0e6ef;
+    border-radius: 4px;
+    background-color: #fff;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reset-cancel {
+    display: block;
+    text-align: center;
+    margin: 20px auto auto;
+    font-size: 15px;
+}
+
+.pt-form .cdi-wrapped-text .label-button.inline {
+    font-size: 13px
+}
+
+.label-button {
+    float: right;
+    margin-top: -32px
+}
+
+.c-cia-divider .text {
+    background-color: #f4f6f9;
+    padding: 4px 20px;
+    margin: 5px 0;
+    z-index: 1;
+    font-size: 15px;
+    font-weight: 500
+}
+
+.pt-settings-container .pt-section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0;
+    line-height: normal
+}
+
+.pt-settings-container .pt-section-title__header {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 25px
+}
+
+.pt-settings-container .pt-section-title__value-proposition {
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 25px;
+    margin-top: -12px
+}
+
+.pt-settings-container.spinnable {
+    position: static
+}
+
+.pt-settings-container.spinnable.spinning:before {
+    z-index: 1999
+}
+
+.pt-settings-container {
+    padding: 25px;
+    width: 395px
+}
+
+
+
+
+
+/* .pt-input-wrapper.pt-input-wrapper-error>input, .pt-input-wrapper.pt-input-wrapper-error>select, .pt-input-wrapper.pt-input-wrapper-error>textarea {
+    border-color: #bb0628;
+}
+.pt-input-wrapper.pt-input-focused>input, .pt-input-wrapper.pt-input-focused>select, .pt-input-wrapper.pt-input-has-content>input, .pt-input-wrapper.pt-input-has-content>select {
+    padding-top: 10px;
+}
+.pt-input:not(:-webkit-autofill) {
+    -webkit-animation-name: onAutoFillCancel;
+    animation-name: onAutoFillCancel;
+}
+.pt-input-wrapper>.tb-select-wrapper, .pt-input-wrapper>input {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+} */

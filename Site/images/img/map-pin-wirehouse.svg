@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.682" height="55" viewBox="0 0 44.682 55">
+  <g id="map-pin-wirehouse" transform="translate(10 15.5)">
+    <g id="Group_37071" data-name="Group 37071" transform="translate(-1034.5 -515.833)">
+      <path id="Path_18192" data-name="Path 18192" d="M-4012,532.333v-31h35.717v31H-4012" transform="translate(5037.5 0)" fill="none" stroke="#2374bb" stroke-width="2"/>
+      <path id="Path_18193" data-name="Path 18193" d="M-4012,506.556v-5.223h15.289v5.223H-4012" transform="translate(5047.86 0)" fill="none" stroke="#2374bb" stroke-width="2"/>
+    </g>
+    <path id="Path_18227" data-name="Path 18227" d="M33.682,16.341c0,11.932-15.341,22.159-15.341,22.159S3,28.273,3,16.341a15.341,15.341,0,1,1,30.682,0Z" transform="translate(0)" fill="#f1f7ff" stroke="#2374bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <ellipse id="Ellipse_281" data-name="Ellipse 281" cx="4.245" cy="4.599" rx="4.245" ry="4.599" transform="translate(15.028 10.906)" fill="none" stroke="#2374bb" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

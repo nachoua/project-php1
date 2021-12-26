@@ -1,0 +1,43 @@
+h1.form{
+    color:red;
+}
+h1.fore{
+    font-weight: bold;
+    color:rgb(218, 61, 218);
+}
+body{
+    background-color: papayawhip !important;
+}
+form.width-form{
+    width: 30% !important;
+    height: 20% !important;
+    justify-content: center !important;
+    background-color: rgb(230, 166, 166);
+    border-radius: 15px;
+    margin:auto !important;
+    padding:50px !important;
+}
+.btn-form{
+    justify-content: center !important;
+    margin:auto !important;
+    font-size: 20px;
+    margin-top:30px !important;
+    padding-left: 40%;
+    padding-right: 38%;
+    text-align: center !important;
+    border-radius: 15px;
+    background-color: rgb(233, 104, 104) !important;
+}
+.grey-r{
+    background-color: rgb(230, 166, 166) !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    text-align: center !important;
+    padding-top:50px;
+    padding-bottom:50px;
+    width: 30%;
+    margin-top:60px !important;
+    margin: auto;
+    margin-bottom: 50px;
+
+}

@@ -1,0 +1,236 @@
+// Header
+
+.header-top {
+    border-bottom: 1px solid #f9f5f5;
+    font-size: .75em;
+    font-weight: bold;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        a {
+            color: rgba(102, 102, 102, 0.85);
+        }
+
+        .phone {
+            font-size: 14px;
+        }
+
+        .top-nav {
+            ul {
+                list-style-type: none;
+                display: flex;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    & + li {
+                        margin-left: 20px;
+
+                        a {
+                            font-size: 12.8px;
+                            position: relative;
+
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                width: 1px;
+                                border-left: 1px solid #0000001a;
+                                height: 15px;
+                                margin-top: -7px;
+                                left: -0.8em;
+                            }
+
+
+                        }
+                    }
+
+
+                }
+
+                .header-wishlist-icon {
+
+                    .fa-heart {
+                        margin-left: 5px;
+                        position: relative;
+                    }
+
+                    [data-icon-label]:after {
+                        content: attr(data-icon-label);
+                        position: absolute;
+                        font-style: normal;
+                        font-weight: bolder;
+                        -webkit-box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 30%);
+                        box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 30%);
+                        padding-left: 2px;
+                        padding-right: 2px;
+                        opacity: .9;
+                        letter-spacing: -.5px;
+                        border-radius: 99px;
+                        color: #fff;
+                        text-align: center;
+                        z-index: 1;
+                        -webkit-transition: -webkit-transform .2s;
+                        transition: -webkit-transform .2s;
+                        -o-transition: transform .2s;
+                        transition: transform .2s;
+                        transition: transform .2s, -webkit-transform .2s;
+
+                        min-width: 13px;
+                        top: -4px;
+                        right: -10px;
+                        height: 13px;
+                        font-size: 10px;
+                        line-height: 13px;
+                        background-color: #06ac0e;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header-main {
+
+    /*height: 75px;*/
+    .header-inner {
+        -js-display: flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 100%;
+        border-bottom: 1px solid #ededed;
+
+        .logo {
+            line-height: 1;
+            margin: 0;
+            margin-left: 0;
+            margin-right: 30px;
+            width: 186px;
+
+            img {
+                max-height: 75px;
+            }
+        }
+
+        .searchform-wrapper {
+            font-size: .85em;
+            font-weight: 400;
+            width: 100%;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            -ms-flex-negative: 1;
+            -ms-flex-preferred-size: auto !important;
+            margin-right: auto;
+
+            .searchform {
+                width: 90%;
+            }
+
+            .searbar {
+                -js-display: flex;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                width: 100%;
+
+                .textbox-wrapper {
+                    -webkit-box-flex: 1;
+                    -ms-flex: 1;
+                    flex: 1;
+                    -ms-flex-negative: 1;
+                    -ms-flex-preferred-size: auto !important;
+
+                    input {
+                        border-color: rgba(0, 0, 0, .09);
+                        color: currentColor !important;
+                        background-color: rgba(255, 255, 255, 0.03);
+                        border-radius: 99px;
+                        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.09);
+                        border-radius: 5px;
+                        height: 40px;
+                    }
+                }
+
+                .button-wrapper {
+                    padding-right: 4px;
+                    margin-left: -2.9em;
+
+                    button {
+                        background: none;
+                        border: none;
+                    }
+                }
+            }
+        }
+
+        .login-cart-wrapper {
+            a {
+                & + a {
+                    margin-left: 30px;
+                    position: relative;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 1px;
+                        height: 100%;
+                        left: -15px;
+                        top: 0;
+                        background-color: rgba(0, 0, 0, .1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header-bottom {
+    .navbar-expand-lg {
+        padding: 0;
+
+        .navbar-nav {
+            .nav-item {
+                margin: 0 13px;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                .nav-link {
+                    padding-left: 0;
+                    padding-right: 0;
+                    line-height: 25px;
+                    color: #3d3d3d;
+                    font-size: 1em;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
